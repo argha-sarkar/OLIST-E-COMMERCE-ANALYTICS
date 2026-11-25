@@ -115,7 +115,7 @@ olist-ecommerce-analytics/
 ## 4. Quickstart
 
 ```bash
-git clone https://github.com/<your-username>/olist-ecommerce-analytics.git
+git clone https://github.com/argha-sarkar/OLIST-E-COMMERCE-ANALYTICS.git
 cd olist-ecommerce-analytics
 make setup                       # venv + pip install -r requirements.txt
 cp .env.example .env             # put your MySQL Workbench credentials in .env

@@ -1,0 +1,7 @@
+customer_id,customer_unique_id,customer_zip_code_prefix,customer_city,customer_state
+cust_o1,cu1,01001,sao paulo,SP
+cust_o2,cu2,20040,rio de janeiro,RJ
+cust_o3,cu1,01001,sao paulo,SP
+cust_o4,cu3,01001,sao paulo,SP
+cust_o5,cu3,01001,sao paulo,SP
+cust_o6,cu4,80000,curitiba,PR

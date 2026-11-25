@@ -1,0 +1,38 @@
+# ---- secrets -------------------------------------------------------------
+.env
+*.pem
+
+# ---- data (never commit the Kaggle CSVs: licence + size) ------------------
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv.gz
+
+# ---- generated outputs ---------------------------------------------------
+reports/figures/*.png
+reports/results_pack.md
+reports/run_manifest.json
+reports/tables/
+reports_ci/
+reports/*.xlsx
+!reports/figures/.gitkeep
+
+# ---- python --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+*.egg-info/
+
+# ---- editors / OS --------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# ---- mysql workbench -----------------------------------------------------
+*.mwb.bak
